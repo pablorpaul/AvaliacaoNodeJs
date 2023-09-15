@@ -1,0 +1,28 @@
+{
+  "name": "avaliacaonodejs",
+  "version": "1.0.0",
+  "description": "Avaliacao Jovem Programador em nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "jest test/index.test.js",
+    "test:cov": "jest test/index.test.js --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pablorpaul/AvaliacaoNodeJs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pablorpaul/AvaliacaoNodeJs/issues"
+  },
+  "homepage": "https://github.com/pablorpaul/AvaliacaoNodeJs#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.1"
+  }
+}
